@@ -1,0 +1,104 @@
+body{
+    background-color: #333;
+}
+
+a{
+    text-decoration: none;
+    color: #FFD700;
+}
+
+#carousel{
+    width: 850px;
+    height: 500px;
+
+    position: relative;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#carousel picture>img{
+    position: absolute;
+    box-shadow: 2px 2px 2px 2px #222;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#carousel .images .sl-1{
+    position: absolute;
+    left: -25%;
+    width: 500px;
+    height: 300px;
+}
+
+#carousel .images .sl-2{
+    position: absolute;
+    z-index: 1;
+}
+
+#carousel .images .sl-3{
+    position: absolute;
+    right: -25%;
+    width: 500px;
+    height: 300px;
+}
+
+.controls{
+    position: relative;
+    font-size: 3em;
+    top: 4.5em;
+    right:0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.controls .fa-arrow-alt-circle-left{
+    position: absolute;
+    color: rgba(255, 217, 0, 0.658);
+    left: 0;
+    box-sizing: border-box;
+}
+
+.controls .fa-arrow-alt-circle-left:hover{
+    color: #FFD700;
+}
+
+.controls .fa-arrow-alt-circle-right:hover{
+    color: #FFD700;
+}
+
+.controls .fa-arrow-alt-circle-right{
+    position: absolute;
+    color: rgba(255, 217, 0, 0.658);
+    right: 0%;
+    box-sizing: border-box;
+}
+
+#carousel .indicators{
+    position: absolute;
+    width: 4em;
+    color: rgba(255, 217, 0, 0.658);
+
+    top: auto;
+    right: 50;
+    bottom: 1em;
+    left: 50%;
+
+    margin-left: -2em;
+    margin-top: -2em;
+} 
+
+#carousel .indicators .fa-square{
+    color: rgba(255, 217, 0, 0.658);
+}
+
+#carousel .indicators .fa-square:hover{
+    color: #FFD700;
+}
+    
